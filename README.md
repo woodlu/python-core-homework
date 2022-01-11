@@ -124,3 +124,42 @@ python -m unittest test_ex2.TestFetchPage
 ```
 python -m unittest test_ex3.TestGame
 ```
+
+---
+
+# Exercise 4
+
+Написать реализацию функции `cross_join`, которая возвращает генератор пар `(LastName, DepartmentName)`
+аналогичных результату запроса
+
+```sql
+SELECT LastName, DepartmentName
+FROM Employee, Department
+```
+
+`Employee table`
+
+| LastName   | DepartmentID |
+|------------|-------------:|
+| Rafferty   |           31 |
+| Jones      |           33 |
+| Heisenberg |           33 |
+| Robinson   |           34 |
+| Smith      |           34 |
+| Williams   |           31 |
+
+`Department table`
+
+| DepartmentID | DepartmentName  |
+| ------------ | --------------: |
+| 31           | Sales           |
+| 33           | Engineering     |
+| 34           | Clerical        |
+| 35           | Marketing       |
+
+- код [Exercise 4](ex4/__init__.py)
+- запуск тестов четвёртого упражнения
+```
+python -m unittest test_ex4.TestCrossJoin
+```
+

@@ -22,4 +22,4 @@ jobs:
         python-version: "3.10"
     - name: Test
       run: |
-        python -m unitest
+        python3 -m unitest

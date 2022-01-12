@@ -13,7 +13,7 @@
 1. Перейти на гитхабе в форкнутый репозиторий (ссылка
    вида `https://github.com/ваше_имяпользователя/python-core-homework`)
 
-2. Перейти во вкладку Actions и нажать на кнопку `I understand my waorkflows, go ahead and enable them` :)
+2. Перейти во вкладку Actions и нажать на кнопку `I understand my workflows, go ahead and enable them` :)
 
 
 ### Настроить бейдж

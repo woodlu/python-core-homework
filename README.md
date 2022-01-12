@@ -29,7 +29,7 @@
 [![Tests](https://github.com/username/python-core-homework/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/username/python-core-homework/actions/workflows/python-app.yml)
 ```
 где username - ваше_имяпользователя_на_github
-4. Теперь при пуше или мёрдже в master будут прогоняться юнит-тесты и бейдж будет показывать их состояние
+Теперь при пуше или мёрдже в master будут прогоняться юнит-тесты и бейдж будет показывать их состояние
 
 ---
 

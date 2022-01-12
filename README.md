@@ -2,21 +2,33 @@
 
 # Настройка Github репозитория
 
-1. Форкнуть [репозиторий с домашкой](https://github.com/sabkaryan/python-core-homework)
-2. Включить Actions в своём форке
-    1. Перейти на гитхабе в форкнутый репозиторий (ссылка
-       вида `https://github.com/ваше_имяпользователя/python-core-homework`)
-    2. Перейти во вкладку Actions и нажать на кнопку `I understand my warkflows, go ahead and enable them` :)
-3. Настроить бейдж
-    1. Открыть файл [README.md](README.md) заменить первую строку
-    ```
-    [![Tests](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml)
-    ```   
-    на
-    ```
-    [![Tests](https://github.com/username/python-core-homework/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/username/python-core-homework/actions/workflows/python-app.yml)
-    ```
-    где username - ваше_имяпользователя_на_github
+### Fork
+
+Форкнуть [репозиторий с домашкой](https://github.com/sabkaryan/python-core-homework)
+
+### Включить Actions в своём форке
+
+<img width="1377" alt="Screenshot 2022-01-12 at 17 13 36" src="https://user-images.githubusercontent.com/1016430/149178275-123c3a73-27c8-48af-afaa-066a1a3c634c.png">
+
+1. Перейти на гитхабе в форкнутый репозиторий (ссылка
+   вида `https://github.com/ваше_имяпользователя/python-core-homework`)
+
+2. Перейти во вкладку Actions и нажать на кнопку `I understand my warkflows, go ahead and enable them` :)
+
+
+### Настроить бейдж
+
+<img width="136" alt="Screenshot 2022-01-12 at 18 36 35" src="https://user-images.githubusercontent.com/1016430/149177582-02c9a54f-1a9a-4a21-a9a8-6e4fdbb33c0f.png">
+    
+Открыть файл [README.md](README.md) заменить первую строку
+```
+[![Tests](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml)
+```   
+на
+```
+[![Tests](https://github.com/username/python-core-homework/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/username/python-core-homework/actions/workflows/python-app.yml)
+```
+где username - ваше_имяпользователя_на_github
 4. Теперь при пуше или мёрдже в master будут прогоняться юнит-тесты и бейдж будет показывать их состояние
 
 ---

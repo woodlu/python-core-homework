@@ -13,4 +13,3 @@ class TestFetchPage(TestCase):
     def test_call_count(self, fetcher_mock):
         fetch_page('https://google.com')
         self.assertEqual(fetcher_mock.call_count, CALL_COUNT)
-

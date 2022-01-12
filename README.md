@@ -1,3 +1,5 @@
+[![Tests](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml/badge.svg?branch=master&event=push)](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml)
+
 # Requirements
 
 - Python версии 3.8 или старше

@@ -1,4 +1,25 @@
-[![Tests](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml/badge.svg?branch=master&event=push)](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml)
+[![Tests](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml)
+
+# Настройка Github репозитория
+
+1. Форкнуть [репозиторий с домашкой](https://github.com/sabkaryan/python-core-homework)
+2. Включить Actions в своём форке
+    1. Перейти на гитхабе в форкнутый репозиторий (ссылка
+       вида `https://github.com/ваше_имяпользователя/python-core-homework`)
+    2. Перейти во вкладку Actions и нажать на кнопку `I understand my warkflows, go ahead and enable them` :)
+3. Настроить бейдж
+    1. Открыть файл [README.md](README.md) заменить первую строку
+    ```
+    [![Tests](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml)
+    ```   
+    на
+    ```
+    [![Tests](https://github.com/username/python-core-homework/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/username/python-core-homework/actions/workflows/python-app.yml)
+    ```
+    где username - ваше_имяпользователя_на_github
+4. Теперь при пуше или мёрдже в master будут прогоняться юнит-тесты и бейдж будет показывать их состояние
+
+---
 
 # Requirements
 
@@ -136,7 +157,8 @@ python -m unittest test_ex3.TestGame
 
 ```sql
 SELECT LastName, DepartmentName
-FROM Employee, Department
+FROM Employee,
+     Department
 ```
 
 `Employee table`
@@ -161,6 +183,7 @@ FROM Employee, Department
 
 - код [Exercise 4](ex4/__init__.py)
 - запуск тестов четвёртого упражнения
+
 ```
 python -m unittest test_ex4.TestCrossJoin
 ```

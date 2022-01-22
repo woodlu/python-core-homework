@@ -12,7 +12,19 @@ def benchmark(num):
     """
     def wrapper(func):
         # put your code here
-        pass
+        def new_wrapper(*args, **kwargs):
+            totalTime = 0
+            for n in range(num):
+                start = fetcher.time.time()
+                func(*args, **kwargs)
+                time = fetcher.time.time() - start
+                totalTime += time
+                print("time: " + str(time))
+
+            print("avg: " + str(totalTime / num))
+
+        return new_wrapper
+
     return wrapper
 
 
